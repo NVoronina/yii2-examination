@@ -1,0 +1,229 @@
+html,
+body {
+    height: 100%;
+}
+.bg-image{
+    background-image: url('../img/wall.jpg');
+    min-height:100%;
+}
+.price{
+    color:red;
+    font-weight: 600;
+}
+h1,h2,h3{
+    text-transform: uppercase;
+}
+h1{
+    font-size: 2em;
+    color:dimgray;
+}
+h2{
+    font-size: 1.5em;
+    color:dimgray;
+}
+h3{
+    font-size: 1.2em;
+    color:dimgray;
+}
+h4{
+    font-size: 1.1em;
+    color:dimgray;
+}
+.stream{
+    width:100%;
+    height:auto;
+    border:solid 20px white;
+}
+.main{
+    background:rgba(255, 255, 255, 0.7);
+}
+.navbar-color>li>a{
+    color: black;
+
+}
+.enter-site{
+    background: linear-gradient(#f8f8fa, #d2b3fa);
+    border-radius: 1em;
+    margin:0.2em;
+}
+.navbar-gradient{
+    background: linear-gradient(#9c9d8e, #f8f8fa);
+    opacity:0.8;
+}
+.navbar-brand{
+    color: black;
+}
+.wrap {
+    min-height: 100%;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+    box-sizing: border-box;
+}
+
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+    flex: 0 0 auto;
+}
+
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: /*"\e113"*/ "\e151";
+}
+
+a.desc:after {
+    content: /*"\e114"*/ "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view th {
+    white-space: nowrap;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+/* align the logout "link" (button in form) of the navbar */
+.nav li > form > button.logout {
+    padding: 15px;
+    border: none;
+}
+
+@media(max-width:767px) {
+    .nav li > form > button.logout {
+        display:block;
+        text-align: left;
+        width: 100%;
+        padding: 10px 15px;
+    }
+}
+
+.nav > li > form > button.logout:focus,
+.nav > li > form > button.logout:hover {
+    text-decoration: none;
+}
+
+.nav > li > form > button.logout:focus {
+    outline: none;
+}
+.modal-header{
+    background: linear-gradient(#9c9d8e, #f8f8fa);
+}
+ul.menu{
+    list-style: none;
+}
+ul.menu>li{
+    background: rgba(255, 255, 255, 0.8);
+    padding: 1em;
+    border-bottom:solid 1px #9c9d8e;
+}
+ul.product{
+    list-style: none;
+}
+ul.product>li{
+    margin:0.5em;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 1em;
+    width:25%;
+    float:left;
+}
+ul.cart{
+    list-style: none;
+}
+ul.product>li>a {
+    text-decoration: none;
+    color: dimgray;
+}
+ul.product>li>a.buy-button{
+    text-decoration: none;
+    color:white;
+}
+div.paging{
+    clear:both;
+    text-align: center;
+}
+.mini-image{
+    float:left;
+    margin:.5em 10px .5em 0;
+    overflow:hidden; /* this is important */
+    position:relative; /* this is important too */
+    border:1px solid #ccc;
+    max-width:100%;
+    max-height:200px;
+}
+img.product-image{
+    height:auto;
+    width:90%;
+}
+.img-artist{
+    float:left;
+    max-height:10em;
+}
+article.item{
+    float:left;
+    padding:1em;
+    margin:1em;
+    box-shadow: 1px 1px 1px gray;
+}
+.title>a{
+    color:dimgray;
+}
